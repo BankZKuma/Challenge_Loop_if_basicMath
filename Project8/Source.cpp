@@ -30,7 +30,8 @@ int main()
 			siGMax += i;
 			sigMAPower += pow(i, 2);
 		}
-	}//Xbar=SigmaX/(k+1) SD=sqrt((sigMAPower/n)-xbar(power^2))
+	}
+	//Xbar=SigmaX/(k+1) SD=sqrt((sigMAPower/n)-xbar(power^2))
 	printf("\n\n");
 	int k = abs(x[0] - x[1]);
 	//n=k+1
